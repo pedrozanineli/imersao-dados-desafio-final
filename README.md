@@ -14,4 +14,22 @@ Para podermos compreender o projeto como um todo, é preciso tomar como ponto de
 
 ### 1.Tabela dos experimentos
 
+Podemos buscar a tabela dos experimentos, após leitura da base de dados com o auxílio da biblioteca Pandas importada, sendo armazenada na variável exp, com o código abaixo:
+
+```python
+exp.head()
+```
+
+| Id            | Tratamento  | Tempo | Dose  | Composto  | g-0      | ... | c-99    |
+| ------------- | ----------  | ----- | ----- | --------  | -------- | --- | ------- |
+| id_000644bb2  | com_droga   |	24    | D1    |	b68db1d53 | 1.0620   | ... | 0.4176  |
+| id_000779bfc	| com_droga   |	72    |	D1    |	df89a8e5a |	0.0743   | ... | 0.7371  |
+| id_000a6266a  |	com_droga   |	48    |	D1    |	18bb41b2c |	0.6280   | ... | 0.6931  | 
+| id_0015fd391  |	com_droga   |	48    |	D1    |	8c7f86626 |	-0.5138  | ... | -0.8154 |
+| id_001626bd3	| com_droga	  | 72    |	D2    |	7cbed3131	| -0.3254  | ... | 0.7125  |
+
+
+
+
+
 ### 2. Tabela dos resultados
