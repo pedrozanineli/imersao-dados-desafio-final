@@ -28,8 +28,14 @@ exp.head()
 | id_0015fd391  |	com_droga   |	48    |	D1    |	8c7f86626 |	-0.5138  | ... | -0.8154 |
 | id_001626bd3	| com_droga	  | 72    |	D2    |	7cbed3131	| -0.3254  | ... | 0.7125  |
 
+Para entendermos as particularidades desse projeto, precisamos entender qual o seu significado e respectivos valores possíveis:
 
-
-
+1. Id - refere-se a cada experimento realizado, servindo como um identificador para cada um deles;
+2. Tratamento - indica como a amostra foi tratada, sendo possível com ou sem droga;
+3. Tempo - demonstra o tempo decorrido para apresentação de algum efeito, podendo ser 24, 48 ou 72 horas (um, dois ou três dias, portanto);
+4. Dose - apesar de não ser possível compreender tão a fundo, dois tipos de dosagem são apresentados (D1 e D2), podendo ser a quantidade aplicada, p.e.;
+5. Composto - constitui o composto (droga, na tabela original) que está sendo testado, apresentado uma grande quantidade de opções;
+6. Colunas com prefixo "g" - as expressões gênicas, o processo de transcrição até a possível síntese de uma proteína;
+7. Coluna com prefixo "c" - as viabilidades celulares, isto é, a avaliação quantitativa e qualitativa de uma cultura celular.
 
 ### 2. Tabela dos resultados
