@@ -8,3 +8,10 @@ O tema desse trabalho é a identificação dos chamados MoA - *Mecanism of Activ
 
 ### Objetivo a ser resolvido
 
+O objetivo escolhido a ser realizado é a previsão de ativação ou não de determinados mecanismos, tomando como base, tanto de treino para teste, os dados fornecidos na plataforma kaggle já mencionada.
+
+Para podermos compreender o projeto como um todo, é preciso tomar como ponto de partida o entendimento das tabelas e variáveis:
+
+### 1.Tabela dos experimentos
+
+### 2. Tabela dos resultados
