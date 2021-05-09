@@ -39,3 +39,108 @@ Para entendermos as particularidades desse projeto, precisamos entender qual o s
 7. Coluna com prefixo "c" - as viabilidades celulares, isto é, a avaliação quantitativa e qualitativa de uma cultura celular.
 
 ### 2. Tabela dos resultados
+
+De maneira semelhante ao acesso da tabela de experimentos, acessamos a tabela de resultados:
+
+```python
+res.head()
+```
+
+| id            | 5-alpha_reductase_inhibitor | 11-beta-hsd1_inhibitor | acat_inhibitor | ... |
+| ------------- | --------------------------- | ---------------------- | -------------- | --- |
+| id_000644bb2  |	0                           | 0                      | 0              | ... |
+| id_000779bfc  |	0                           |	0                      | 0              | ... |
+| id_000a6266a  |	0                           |	0                      | 0              | ... |
+| id_0015fd391  |	0                           |	0                      | 0              | ... |
+| id_001626bd3  |	0                           |	0                      | 0              | ... |
+
+Para entendermos as particularidades desse projeto, precisamos entender qual o seu significado e respectivos valores possíveis:
+
+1. Id - refere-se a cada experimento realizado, servindo como um identificador para cada um deles;
+2. Colunas seguintes são indicadas por MoA, *mecanism of activation*, os mecanismos de ativação.
+
+Nessas colunas, os valores que podem ser atribuídos são binários - ou seja, apenas dois possíveis. Caso o valor seja 0, indicando uma resposta negativa, sem ativação, portanto. Mas, se o valor for igual a 1, indicando uma resposta positiva, com ativação, portanto.
+
+Os nomes dos mecanismos são compostos por 2 componentes: o alvo e o efeito causado no alvo. Por exemplo o MoA 5-alpha_reductase_inhibitor, indica um mecanismo relacionado com a inibição de redutase 5-alpha.
+
+## Bibliografia utilizada no projeto
+
+[1] Projeto do laboratório de inovações de ciência de Harvard:
+
+https://lish.harvard.edu/;
+
+[2] Dados da competição disponibilizados no kaggle:
+
+https://www.kaggle.com/c/lish-moa;
+
+[3] NADEL, Dani, & WERKER, Ella. (1999). The oldest ever brush hut plant remains from Ohalo II, Jordan Valley, Israel (19,000 BP). Disponível em: 
+
+https://www.researchgate.net/publication/262726781_The_oldest_ever_brush_hut_plant_remains_from_Ohalo_II_Jordan_Valley_Israel_19_BP;
+
+[4] Vantagens, aplicação e composição da farinha de peixe:
+
+https://www.patense.com.br/pt/views/farinha-de-peixe.php;
+
+[5] HARDY, Karen. Paleomedicine and the Evolutionary Context of Medicinal Plant Use. **Revista Brasileira de Farmacologia**, 2020. Disponível em: https://link.springer.com/article/10.1007/s43450-020-00107-4
+
+[6] Informações e publicações de artigos a respeito de *drug discovery*:
+
+https://www.nature.com/subjects/drug-discovery;
+
+[7] TOLEDO, Karina. Drogas que modulam a expressão gênica são testadas em modelo de diabetes. **Agência FAPESP**, 2016. Disponível em: https://agencia.fapesp.br/drogas-que-modulam-a-expressao-genica-sao-testadas-em-modelo-de-diabetes/23690/
+
+[8] Python na Ciência de Dados Livro de Bolso, do autor Jake VanderPlas:
+
+https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html;
+
+[9] Documentação da biblioteca Pandas:
+
+https://pandas.pydata.org/docs/;
+
+[10] Documentação da biblioteca Matplotlib:
+
+https://matplotlib.org/2.0.2/;contents.html
+
+[11] Documentação da biblioteca Seaborn:
+
+https://seaborn.pydata.org/;
+
+[12] Entendendo melhor os vetores com a Alura:
+
+https://www.alura.com.br/conteudo/kotlin-introducao-collections-arrays-listas;
+
+[13] Entendendo a distribuição normal, seu conceito, para que serve e como fazer a sua construção:
+
+https://www.voitto.com.br/blog/artigo/distribuicao-normal;
+
+[14] Palestra do pesquisador Dr. Daniel Antunes a respeito de mecanismos epigenéticos:
+
+http://ead.hemocentro.fmrp.usp.br/joomla/index.php/noticias/adotepauta/669-mecanismos-epigeneticos;
+
+[15] Conceituação de *Machine Learning* pelo cientista da computação Arthur Samuel:
+
+https://solvimm.com/blog/o-que-e-machine-learning/;
+
+[16] Entendendo a regressão logística e sua documentação:
+
+ https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html;
+
+[17] Guia de usuário/documentação do *Sci-kit Learning*:
+
+https://scikit-learn.org/stable/user_guide.html;
+
+[18] Entendendo a árvore de decisão e sua documentação:
+
+https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html;
+
+[19] Compreendendo mais a fundo o laço de repetição *for*:
+
+https://www.devmedia.com.br/conceitos-e-exemplos-do-for-lacos-de-repeticoes-estrutura-da-linguagem-parte-2/18871;
+
+[20] Entendendo a árvore de decisão e sua documentação:
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html;
+
+[21] Droga Milasen desenvolvida para a menina Mila:
+
+https://www.milasmiracle.org/milasen.
